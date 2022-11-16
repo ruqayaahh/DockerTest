@@ -1,0 +1,58 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "A web app that authenticates users and grants them access to a portal to save details about hardcopies they own and currently have in their custody; books they own but don’t have in their custody (lent out), books they are currently reading and books they wish to keep in their to-read/to-buy list.",
+  "main": "./index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruqayaahh/DockerTest.git"
+  },
+  "keywords": [
+    "hardcopy-books",
+    "book-kit",
+    "reading",
+    "catalogue"
+  ],
+  "bugs": {
+    "url": "https://github.com/ruqayaahh/DockerTest/issues"
+  },
+  "homepage": "https://github.com/ruqayaahh/DockerTest#readme",
+  "author": "Ruqayaah Sabitu",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.7",
+    "axios": "^1.1.3",
+    "eslint": "^8.27.0",
+    "file-loader": "^6.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "babel-loader": "^9.0.1",
+    "babel-preset-solid": "^1.6.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.4",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
