@@ -1,0 +1,5 @@
+/client/node_modules
+/server/node_modules
+build/*.js
+npm-debug.log
+.DS_Store
